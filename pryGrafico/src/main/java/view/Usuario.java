@@ -45,22 +45,32 @@ public class Usuario extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("ID");
         jLabel1.setToolTipText("");
 
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("NOMBRE");
         jLabel2.setToolTipText("");
 
+        jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NIVEL");
         jLabel3.setToolTipText("");
 
+        jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("APELLIDO");
         jLabel4.setToolTipText("");
 
+        txtId.setBackground(new java.awt.Color(255, 255, 255));
+        txtId.setForeground(new java.awt.Color(0, 0, 0));
         txtId.setToolTipText("Ingrese el ID");
         txtId.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtId.addActionListener(new java.awt.event.ActionListener() {
@@ -69,6 +79,8 @@ public class Usuario extends javax.swing.JPanel {
             }
         });
 
+        txtNombre.setBackground(new java.awt.Color(255, 255, 255));
+        txtNombre.setForeground(new java.awt.Color(0, 0, 0));
         txtNombre.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,6 +88,8 @@ public class Usuario extends javax.swing.JPanel {
             }
         });
 
+        txtApellido.setBackground(new java.awt.Color(255, 255, 255));
+        txtApellido.setForeground(new java.awt.Color(0, 0, 0));
         txtApellido.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtApellido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,6 +97,8 @@ public class Usuario extends javax.swing.JPanel {
             }
         });
 
+        cmbNivel.setBackground(new java.awt.Color(255, 255, 255));
+        cmbNivel.setForeground(new java.awt.Color(0, 0, 0));
         cmbNivel.setMaximumRowCount(9);
         cmbNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nivel 1", "Nivel 2", "Item 3", "Item 4" }));
         cmbNivel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -107,7 +123,7 @@ public class Usuario extends javax.swing.JPanel {
                     .addComponent(jLabel1))
                 .addGap(38, 38, 38)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(cmbNivel, 0, 232, Short.MAX_VALUE)
+                    .addComponent(cmbNivel, 0, 240, Short.MAX_VALUE)
                     .addComponent(txtApellido)
                     .addComponent(txtNombre)
                     .addComponent(txtId))
@@ -132,13 +148,14 @@ public class Usuario extends javax.swing.JPanel {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(cmbNivel, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(311, Short.MAX_VALUE))
+                .addContainerGap(284, Short.MAX_VALUE))
         );
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         btnNuevo1.setBackground(new java.awt.Color(204, 204, 204));
+        btnNuevo1.setForeground(new java.awt.Color(0, 0, 0));
         btnNuevo1.setText("Nuevo");
         btnNuevo1.setToolTipText("Agregar registro");
         btnNuevo1.setBorder(null);
@@ -149,6 +166,7 @@ public class Usuario extends javax.swing.JPanel {
         });
 
         btnGuardar.setBackground(new java.awt.Color(204, 204, 204));
+        btnGuardar.setForeground(new java.awt.Color(0, 0, 0));
         btnGuardar.setText("Guardar");
         btnGuardar.setToolTipText("Guardar registro ");
         btnGuardar.setBorder(null);
@@ -159,6 +177,7 @@ public class Usuario extends javax.swing.JPanel {
         });
 
         btnConsultar.setBackground(new java.awt.Color(204, 204, 204));
+        btnConsultar.setForeground(new java.awt.Color(0, 0, 0));
         btnConsultar.setText("Consultar");
         btnConsultar.setToolTipText("Consultar registro ");
         btnConsultar.setBorder(null);
@@ -169,6 +188,7 @@ public class Usuario extends javax.swing.JPanel {
         });
 
         btnModificar.setBackground(new java.awt.Color(204, 204, 204));
+        btnModificar.setForeground(new java.awt.Color(0, 0, 0));
         btnModificar.setText("Modificar");
         btnModificar.setToolTipText("Modificar registro ");
         btnModificar.setBorder(null);
@@ -179,6 +199,7 @@ public class Usuario extends javax.swing.JPanel {
         });
 
         btnEliminar.setBackground(new java.awt.Color(204, 204, 204));
+        btnEliminar.setForeground(new java.awt.Color(0, 0, 0));
         btnEliminar.setText("Eliminar");
         btnEliminar.setToolTipText("Eliminar registro ");
         btnEliminar.setBorder(null);
@@ -189,6 +210,7 @@ public class Usuario extends javax.swing.JPanel {
         });
 
         btnSalir.setBackground(new java.awt.Color(204, 204, 204));
+        btnSalir.setForeground(new java.awt.Color(0, 0, 0));
         btnSalir.setText("Salir");
         btnSalir.setToolTipText("Salir");
         btnSalir.setBorder(null);
@@ -215,7 +237,7 @@ public class Usuario extends javax.swing.JPanel {
                 .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(354, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -234,18 +256,16 @@ public class Usuario extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
